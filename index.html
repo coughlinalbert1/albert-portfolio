@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo"><span>Albert Coughlin</span></a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="#contact" class="gradient-btn">Contact Me!</a>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hello, I'm <span>Albert</span></h1>
+            <h3>I am a <span>Software Developer</span></h3>
+            <p>
+                I'm a software developer passionate about building innovative solutions and tackling complex problems. 
+                My expertise spans CRUD APIs, machine learning, and full-stack development, with hands-on experience in 
+                Python, Java, and modern software architectures. I earned my B.S. in Computer Science from Clayton State 
+                University (December 2024), where I cultivated my love for math, algorithms, and system design.<br><br>
+
+                I hold an AWS Certified Cloud Practitioner certification and am currently working toward 
+                another AWS certification to deepen my expertise in cloud computing and scalable architectures. 
+                Always eager to learn, I thrive on new challenges and opportunities to grow in the ever-evolving tech landscape.
+            </p>
+
+            <div class="btn-group">
+                <a href="#about" class="btn">Read More</a>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/albertcoughlin/" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="https://github.com/coughlinalbert1" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://docs.google.com/document/d/14psi7zMGgoV1Njacs3AcjSZCor2IKt_EfZX3oBSe8-Y/edit?usp=sharing" target="_blank"><i class="bx bxl-google"></i></a>
+            </div> 
+        </div>
+        <div class="home-img">
+            <img src="images/home-photo2.JPG" alt="home-img">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img"><img src="images/home2.jpeg" alt=""></div>
+
+        <div class="about-content">
+            <h2><span>About Me</span></h2>
+            <p>
+                I'm a <strong>software engineer</strong> passionate about <strong>building scalable applications, solving complex problems, and crafting intuitive user experiences</strong>.<br><br>
+                With expertise in <strong>full-stack development, machine learning, and database design</strong>, I enjoy transforming ideas into <strong>efficient, high-performing solutions</strong>.<br><br>
+                I specialize in <strong>Python, JavaScript, SQL, and AWS</strong>, working on <strong>machine learning models, web applications, and data-driven projects</strong>.<br>
+                Whether it's <strong>designing a responsive frontend, optimizing a database schema, or deploying a microservice-based backend</strong>, I thrive on tackling <strong>new challenges</strong> and <strong>improving system efficiency</strong>.<br><br>
+                Beyond coding, I'm constantly <strong>learning and exploring new technologies</strong> to refine my skills and stay ahead in the ever-evolving tech landscape.<br><br>
+                <strong>Check out my projects to see what I've been working on!</strong> 🚀
+            </p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading"><span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <div class="skills-info">
+                    <i class= "bx bx-code-alt"></i>
+                    <h4>Full Stack Developer</h4>
+                    <p>
+                        I design and build scalable, responsive web applications with a focus on performance, usability, 
+                        and maintainability. On the frontend, I work with HTML5, CSS, JavaScript, ensuring a seamless UI/UX 
+                        with modern design practices. On the backend, I develop RESTful APIs using FastAPI, Python, and SQL databases 
+                        (PostgreSQL, Oracle, MongoDB). I also implement microservice architectures and leverage Docker and AWS for deployment, 
+                        ensuring scalability and efficiency.
+                    </p>
+                </div>
+            </div>
+
+            <div class="skills-box">
+                <div class="skills-info">
+                    <i class= "bx bx-chart"></i>
+                    <h4>Data Analyst</h4>
+                    <p>
+                        I specialize in data cleaning, preprocessing, and visualization to extract meaningful insights. 
+                        Using Excel (VLOOKUP, Pivot Tables, Macros), Python (Pandas, NumPy), and SQL (PostgreSQL, Oracle), 
+                        I analyze complex datasets to drive decision-making. I create interactive visualizations with Matplotlib, 
+                        Seaborn, Plotly, and Tableau, helping translate data into actionable strategies. Additionally, 
+                        I have experience automating workflows and handling large datasets efficiently.
+                    </p>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skills-info">
+                    <i class= "bx bx-brain"></i>
+                    <h4>Machine Learning Engineer</h4>
+                    <p>
+                        I have experience developing machine learning models using PyTorch, NumPy, Pandas, and Scikit-Learn, 
+                        with a strong focus on data preprocessing, model training, and evaluation. My work includes building 
+                        predictive models, visualizing data insights, and optimizing model performance for efficiency. 
+                        I also have hands-on experience in deep learning, data analysis, and real-time model deployment using FastAPI and AWS.
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="skills-box">
+                <div class="skills-info">
+                    <i class= "bx bx-data"></i>
+                    <h4>Database Designer</h4>
+                    <p>
+                        I specialize in designing, structuring, and optimizing relational and NoSQL databases for efficiency and scalability. 
+                        I work with PostgreSQL, Oracle, MongoDB, and Redis, ensuring normalized schemas, efficient indexing, and optimized queries. 
+                        My expertise includes ERD modeling as well as implementing secure and scalable database architectures for web applications.
+                    </p>
+                </div>
+            </div> -->
+        </div>
+    </section>  
+    
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+    
+        <div class="projects-box">
+            <div class="projects-card">
+                <img src="images/weather-prediction.png" alt="">
+    
+                <h3>Weather Prediction</h3>
+                <p>
+                    This project is an early-stage weather prediction web application
+                     that utilizes PyTorch for machine learning-based forecasting. 
+                     The goal is to provide accurate, data-driven weather predictions 
+                     through a user-friendly web interface. While the frontend is currently 
+                     hosted on GitHub Pages, the backend is under development and will 
+                     be migrated to AWS for robust performance and scalability.
+                </p>
+                <a href="https://coughlinalbert1.github.io/Weather-Prediction/" target="_blank" class="btn">Review Project</a>            
+            </div>
+    
+            <div class="projects-card">
+                <img src="images/FACGCE.png" alt="">
+    
+                <h3>Interactive Fretboard</h3>
+                <p>
+                    The Interactive Fretboard project aims to create a dynamic and educational tool for guitar players of all levels. 
+                    This web application will allow users to visualize scales, chords, and arpeggios on a virtual guitar fretboard. 
+                    Currently, the project is in the development phase, focusing on building the functionality and user interface.
+                    Future plans include adding features such as naming the chords the user selected using machine learning.
+                </p>
+                <a href="https://github.com/coughlinalbert1/Interactive-Guitar-Fretboard" target="_blank" class="btn">Review Project</a>            
+            </div>
+
+            <div class="projects-card">
+                <img src="images/project-portfolio.png" alt="Personal Portfolio Website">
+            
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    This project is my personal portfolio website, designed to showcase my skills, projects, and experience as a software developer. 
+                    The website is built using HTML, CSS, and JavaScript, and features a responsive design to ensure it looks great on all devices. 
+                    It includes sections for my bio, skills, projects, and contact information, allowing visitors to learn more about me and get in touch
+                    via linkedin or using the form submission powered by Formspree due to Github Pages serverside scripting limitations.
+                </p>
+                <a href="https://your-portfolio-website-url.com" target="_blank" class="btn">Visit Website</a>
+            </div>
+
+            <div class="projects-card">
+                <img src="images/banking-architecture.png" alt="">
+    
+                <h3>Distributed Banking Backend</h3>
+                <p>
+                    Designed and developed a scalable, microservice-based banking backend using FastAPI 
+                    and Redis, ensuring high availability, fault tolerance, and optimized performance. 
+                    Implemented Docker containerization to streamline deployment and enhance system scalability. 
+                    This architecture enables secure and efficient banking operations.
+                </p>
+                <a href="https://coughlinalbert1.github.io/distributed-banking/" target="_blank" class="btn">Review Project</a>            
+            </div>
+
+            <div class="projects-card">
+                <img src="images/breast-cancer-pred.png" alt="Breast Cancer Prediction">
+            
+                <h3>Breast Cancer Prediction</h3>
+                <p>
+                    This project involves building a machine learning model to predict breast cancer using a Jupyter Notebook. 
+                    The model is developed using the scikit-learn library and employs the Decision Tree algorithm for classification. 
+                    The dataset used is the Breast Cancer Wisconsin (Diagnostic) dataset, which includes features computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. 
+                    The goal is to accurately classify whether a tumor is benign or malignant based on these features.
+                </p>
+                <a href="https://github.com/coughlinalbert1/Breast-Cancer-Prediction-Model" target="_blank" class="btn">Review Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading"><span>Contact Me</span></h2>
+    
+        <form action="https://formspree.io/f/mldjrdee" method="POST">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+    
+                <div class="input-box">
+                    <input type="number" name="phone" placeholder="Phone Number" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div> 
+            </div>
+            <div class="input-group-2">
+                <textarea name="message" placeholder="Your Message" rows="10" cols="30" required></textarea>
+                <input type="submit" class="btn" value="Send Message">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/albertcoughlin/" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+            <a href="https://github.com/coughlinalbert1" target="_blank"><i class="bx bxl-github"></i></a>
+            <a href="https://docs.google.com/document/d/14psi7zMGgoV1Njacs3AcjSZCor2IKt_EfZX3oBSe8-Y/edit?usp=sharing" target="_blank"><i class="bx bxl-google"></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+
+            <li>
+                <a href="#projects">My Projects</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact Me</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            &copy; Albert Coughlin | All Rights Reserved
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
